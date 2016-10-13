@@ -3,6 +3,8 @@ import java.util.*;
 public class SolveMatrix {
     public static void main (String [] args) {
 
+        /*
+        Once you have a nxn matrix and its corresponding nx1 answer column, substitute these values into cramers(matrix, ans)
         int[][] matrix = new int[5][5];
         matrix[0] = new int[]{0, 0, 0, 1, 8};
         matrix[1] = new int[]{1, 1, 1, 1, 4};
@@ -12,6 +14,7 @@ public class SolveMatrix {
         int[] ans = new int[]{0, 7, 0, 6, 7};
         float[] coefs = cramers(matrix, ans);
         System.out.println(Arrays.toString(coefs));
+        */
 
     }
     public static float[] cramers(int[][] matrix, int[] anscolumn) {
